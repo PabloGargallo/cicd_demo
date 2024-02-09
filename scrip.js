@@ -35,7 +35,7 @@ function validarNum() {
         numeroMsg.textContent = 'Debe ser un número entre 0 y 10.';
         numeroMsg.style.color = 'red';
     } else {
-        numeroMsg.textContent = 'ID de usuario válido.';
+        numeroMsg.textContent = 'Número válido.';
         numeroMsg.style.color = 'green';
     }
   }
@@ -44,12 +44,12 @@ function validarNum() {
     if (!colorCheckbox.checked) {
         var body = document.querySelector('body');
         body.style.backgroundImage = "url('fondo.jpg')";
-        termMsg.style.color = 'black';
+        colorMsg.style.color = 'black';
     } else {
         var body = document.querySelector('body');
         body.style.backgroundImage = "url('fotonegativo.jpg')";
-        termMsg.style.color = 'white';
-
+        colorMsg.style.color = 'white';
+  
     }
   }
   function validarFormulario(event) {
